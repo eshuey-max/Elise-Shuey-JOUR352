@@ -1,67 +1,11 @@
-# color - F9DBBD # color - FFA5AB # color - DA627D # color - A53860 # color - 450920 
-
-
-h1 {
-    background-color: #f9dbbd;
-    color: #450920;
-    font-family: Alice;
-    font-size: 60px;
-    text-align: center;
-}
-
-h2 {
-    background-color: #f9dbbd;
-    color: #da627d;
-    font-family: Playfair Display;
-    text-align: center;
-    font-size: 20px;
-}
-
-h3 {
-    background-color: #f9dbbd;
-    color: #450920;
-    font-family: Alice;
-    text-align: center;
-    font-size: 25px;
-}
-
-button {
-    background-color: #450920;
-    color: #f9dbbd;
-    font-family: Alice;
-    font-size: 20px;
-    display: block;
-    margin: auto;
-}
-
-h4 {
-    background-color: #f9dbbd;
-    color: #da627d;
-    font-family: Playfair Display;
-    text-align: center;
-    font-size: 20px;
-}
-
+/*
+color - #F9DBBD 
+color - #FFA5AB 
+color - #DA627D 
+color - #A53860 
+color - #450920 
+*/
 body {
-    background-color: #f9dbbd
+  background-color: #F9DBBD;
 }
 
-#headshot { width: 400px;          
-  height: auto;          
-  border: #da627d;  
-  border-radius: 30px;   }
-    
-    
-    
-        
-}
-
-/*#font-weight is for bold
-
-<p class="jobtitle"><Job Title/>
-
-id="something"
-
-border-radius
-
-to make a custon class for something you do */
