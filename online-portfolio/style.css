@@ -4,8 +4,101 @@ color - #FFA5AB
 color - #DA627D 
 color - #A53860 
 color - #450920 
+title - Alice
+cursive - Parisienne
+readable- SpecialGothic
 */
 body {
   background-color: #F9DBBD;
 }
 
+h1 {
+  color: #DA627D;
+    font-family: Alice;
+  font-size: 45px
+}
+
+h2 {
+  color: #450920;
+    font-family: Parisienne;
+      font-size
+}
+
+#email {
+  background-color: #FFA5AB;
+  color: #450920;
+    font-family: SpecialGothic;
+  font-size: 20px
+}
+
+#button1 {
+  background-color: #FFA5AB;
+    font-family: SpecialGothic;
+  font-size: 30px;
+    border-style: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  color: #450920;
+}
+
+#button2 {
+  background-color: #FFA5AB;
+    font-family: SpecialGothic;
+  font-size: 30px;
+    border-style: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  color: #450920;
+}
+
+#button3 {
+  background-color: #FFA5AB;
+    font-family: SpecialGothic;
+  font-size: 30px;
+    border-style: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  color: #450920;
+}
+
+ul {
+  color: #450920;
+  font-family: SpecialGothic;
+}
+
+hr {
+  color: #450920;
+   height: 10px;
+  background-color: #DA627D; 
+    opacity: 1.0
+}
+
+h3 {
+  font-family: Alice;
+    
+}
+
+h4 { 
+  font-family: SpecialGothic;
+}
+
+h5 {
+  font-family:Parisienne;
+}
+
+#Experience {
+  font-size: 35px;
+}
+
+#Education {
+  font-size: 35px;
+}
+
+#Skills {
+  font-size: 35px;
+}
+
+p {
+  font-family: SpecialGothic;
+  color: #450920
+}
