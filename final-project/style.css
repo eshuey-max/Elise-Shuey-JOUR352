@@ -1,0 +1,43 @@
+.image1 {
+    width: 100vw;      
+        height: auto;      
+        margin: 0;
+        display: block; 
+    
+}
+
+#dispatch {
+    font-family: LibreBaskerville;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: LibreBaskerville;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#lede {
+    font-family: LibreBaskerville;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#byline {
+    font-family: LibreBaskerville;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p { 
+    font-family: LibreBaskerville;
+    font-size: 17px
+}
+
+002962 dark blue
+00043a blue
+004e89 light blue
+a0001c light red
+800016 dark red
