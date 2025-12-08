@@ -73,18 +73,11 @@ hr {
 }
 
 #picturebackground {
+    background-image: url(FinalProjectImage2.jpg);
     background-color: #002962;
     color: white;
     border-top: 50px solid #002962;
     border-bottom: 50px solid #002962
-}
-
-#textoverpic {
-    position: absolute;
-    top: 1340px;
-    width: 500px;
-    font-size: 25px;
-    left: 860px;   
 }
 
 .image2 {
