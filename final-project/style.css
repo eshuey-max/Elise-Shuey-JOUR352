@@ -1,92 +1,109 @@
-.image1 {
-    width: 100vw;      
-        height: auto;      
+@media screen {
+    .image1 {
+        width: 100vw;
+        height: auto;
         margin: 0;
-        display: block; 
-    filter: brightness(40%);
-}
-
-#dispatch {
-    font-family: LibreBaskerville;
-    font-weight: bold;
-    font-size: 30px;
-    position: absolute;
-    top: 400px;
-    left: 40px;
-    color: white
-}
-
-h1 {
-    font-family: LibreBaskerville;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 75px;
-    position: absolute;
-    top: 450px;
-    left: 40px;
-    color: white
-}
-
-#lede {
-    font-family: LibreBaskerville;
-    font-weight: bold;
-    font-size: 35px;
-   position: absolute;
-    top: 630px;
+        display: block;
+        filter: brightness(40%);
+    }
+    body {
+        font-family: "Libre Baskerville", serif;
+    }
+    #dispatch {
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        top: 400px;
         left: 40px;
-     color: white
-}
+        color: white;
+    }
 
-#byline {
-    font-family: LibreBaskerville;
-    font-weight: bold;
-    font-size: 30px;
-    position: absolute;
-    top: 690px;
-    left: 40px;
-     color: white
-}
+    h1 {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        color: white;
+    }
 
-p { 
-    font-family: LibreBaskerville;
-    font-size: 19px
-}
+    #lede {
+        font-weight: bold;
+        font-size: 35px;
+        position: absolute;
+        top: 630px;
+        left: 40px;
+        color: white;
+    }
 
-#pullquote {
-    font-family: LibreBaskerville;
-    font-weight: bold;
-    font-style: italic;
-    color: white;
-    font-size: 30px;
-    background-color: #800016;
-    border-left: 30px solid #800016;
-    border-top: 30px solid #800016;
-    border-bottom: 30px solid #800016;
-    border-radius: 35px;
-}
+    #byline {
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        top: 750px;
+        left: 40px;
+        color: white;
+    }
 
-hr {
-    height: 20px;
-    background-color: #00043a;
-    opacity: 100;
+    p {
+        font-size: 19px;
+    }
 
-}
+    #pullquote {
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+        font-size: 30px;
+        background-color: #800016;
+        border-left: 30px solid #800016;
+        border-top: 30px solid #800016;
+        border-bottom: 30px solid #800016;
+        border-radius: 35px;
+    }
 
-#picturebackground {
-    background-image: url(FinalProjectImage2.jpg);
-    background-color: #002962;
-    color: white;
-    border-top: 50px solid #002962;
-    border-bottom: 50px solid #002962
+    hr {
+        height: 10px;
+        background-color: #00043a;
+        opacity: 100;
+    }
 }
 
 .image2 {
-    width:800px;
-    filter: brightness(40%);
-    z-index: 1;
+    border: 25px solid #800016;
+    padding: 5px;
+    width: 1200px;
+    height: auto;
 }
-002962 dark blue
+
+.image3 {
+    border: 25px solid #800016;
+    padding: 5px;
+    width: 1200px;
+    height: auto;
+}
+
+#disclaimer {
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 75px;
+        top: 300px;
+        left: 40px;
+    }
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 75px;
+        top: 450px;
+        left: 40px;
+    }
+}
+
+/*002962 dark blue
 00043a blue
 004e89 light blue
 a0001c light red
-800016 dark red
+800016 dark red*/
